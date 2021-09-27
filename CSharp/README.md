@@ -5,5 +5,5 @@ Here you will found a collection of test in C#
 A simple test with BenchmarkDotNet
 
 <p align="center"> 
-  <img src="docs/CompareIndexAndSubstring.png" alt="Capture of application " /> 
+  <img src="Docs/CompareIndexAndSubstring.png" alt="Capture of BenchmarkDotNet results" /> 
 </p>
