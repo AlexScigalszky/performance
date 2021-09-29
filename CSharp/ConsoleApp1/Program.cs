@@ -6,7 +6,17 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            var summary = BenchmarkRunner.Run<CompareIndexAndSubstring>();
+
+            /* para ver el resultado ejecutar 
+             * Ubicado en la carpeta de la solución
+             * dotnet run -p ConsoleApp1.csproj -c Release
+             * */
+
+            //var summary = BenchmarkRunner.Run<CompareIndexAndSubstring>();
+            //var summary = BenchmarkRunner.Run<CompareStringCreation>();
+            //var summary = BenchmarkRunner.Run<CompareStringConcatenation>();
+            var summary = BenchmarkRunner.Run<LongStringCreation>();
+            
         }
 
     }
