@@ -26,3 +26,9 @@ just a creation
 <p align="center"> 
   <img src="Docs/LongStringCreation.png" alt="Capture of BenchmarkDotNet results" /> 
 </p>
+
+## GetElementFromCollection
+
+<p align="center"> 
+  <img src="Docs/GetElementFromCollection.png" alt="Capture of BenchmarkDotNet results" /> 
+</p>
