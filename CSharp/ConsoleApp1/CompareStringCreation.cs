@@ -11,34 +11,39 @@ namespace ConsoleApp1
         readonly char[] letters = { 'A', 'B', 'C' };
 
         [Benchmark]
-        public void UseString()
-        {
-            string variable = "a new variable";
-        }
-
-        [Benchmark]
-        public void UseSystemString()
-        {
-            System.String variable = "a new variable";
-        }
-
-        [Benchmark]
-        public void UseVar()
+        public string UseString()
         {
             var variable = "a new variable";
+            return variable;
         }
 
         [Benchmark]
-        public void UseConst()
+        public string UseSystemString()
+        {
+            System.String variable = "a new variable";
+            return variable;
+        }
+
+        [Benchmark]
+        public string UseVar()
+        {
+            var variable = "a new variable";
+            return variable;
+        }
+
+        [Benchmark]
+        public string UseConst()
         {
             const string variable = "a new variable";
+            return variable;
         }
 
 
         [Benchmark]
-        public void UseStringConstructor()
+        public string UseStringConstructor()
         {
-            string alphabet = new string(letters);
+            string variable = new string(letters);
+            return variable;
         }
     }
 }

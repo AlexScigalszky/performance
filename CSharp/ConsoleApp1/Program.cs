@@ -16,7 +16,8 @@ namespace ConsoleApp1
             //var summary = BenchmarkRunner.Run<CompareStringCreation>();
             //var summary = BenchmarkRunner.Run<CompareStringConcatenation>();
             //var summary = BenchmarkRunner.Run<LongStringCreation>();
-            var summary = BenchmarkRunner.Run<GetElementFromCollection>();
+            //var summary = BenchmarkRunner.Run<GetElementFromCollection>();
+            var summary = BenchmarkRunner.Run<TruncateInt>(); 
 
         }
 
